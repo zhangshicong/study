@@ -20,4 +20,5 @@ const course = new Course({
     siPuablished: true
 
 });
+
 course.save();
