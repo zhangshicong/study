@@ -21,11 +21,14 @@
         </div>
         <button>打开弹窗</button>
         <button class="bb">定时任务取消按钮显示</button>
+
+
+
         <script>
             var btn = document.querySelector('button');
             var bb = document.querySelector('.bb');
             // btn.onclick(function() {
-            //     alert('ss');
+            //     alert('ss'); 
             // })
             btn.addEventListener("click", function() {
                 alert('22');
@@ -36,6 +39,17 @@
                     alert('ss');
                 }, 2000);
             });
+
+            function _indexof(array, value) {
+                // 补全代码
+
+                array.forEach((ele, index) => {
+                    if (ele === value) {
+                        return index;
+                    }
+                })
+            }
+            _indexof([1, 2, 3], 3);
         </script>
 </head>
 </body>

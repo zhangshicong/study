@@ -1,17 +1,12 @@
-function fn() {
-    console.log('ss');
-};
+function _indexof(array, value) {
+    // 补全代码
 
-fn();
+    array.forEach((ele, index) => {
+        if (ele === value) {
+            console.log(index);
+        }
+    })
+    console.log('-1');
 
-var a = 1;
-console.log(a);
-
-
-for (var i = 0; i < 3; i++) {
-    console.log(i);
-};
-
-if (true) {
-    console.log(a);
 }
+_indexof([1, 2, 3], 3);
